@@ -1,0 +1,23 @@
+{
+  "name": "azure-theme",
+  "displayName": "Azure Theme",
+  "description": "The Azure Theme is a theme based on the color blue.",
+  "publisher": "AlphaJR",
+  "icon": "assets/logo.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Azure Theme",
+        "uiTheme": "vs-dark",
+        "path": "themes/Azure Theme-color-theme.json"
+      }
+    ]
+  }
+}
